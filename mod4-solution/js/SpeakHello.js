@@ -1,17 +1,8 @@
-// STEP 2
-
-// STEP 3:
-
 (function() {
-	var helloSpeaker = {};
-	var speakWord = "Hello";
-
-	// STEP 4:
-	
-	helloSpeaker.speak = function (name) {
-	  console.log(speakWord + " " + name);
-	}
-
-	window.helloSpeaker = helloSpeaker;
-})(); // END OF IIFE
-// STEP 5:
+var shello = {};
+var bye = "Good Bye";
+shello.speak = function (name) {
+	console.log(bye + " " + name);
+};
+window.shello = shello;
+})();
